@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(0, 0, 0);
+}.coincard{
+    width: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 0 10px rgb(247, 189, 189); */
+    margin: 2rem 0.5rem;
+    flex-basis: 23%;
+    transition: all 0.5s;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.coincard img{
+    width: 100px;
+}
+.coincard h3,h4{
+    color: rgb(15, 14, 14);
+}
+.coincard:hover{
+    transform: scale(1.1);
+}

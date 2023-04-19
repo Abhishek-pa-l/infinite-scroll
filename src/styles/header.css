@@ -1,0 +1,18 @@
+*{
+    margin: 0;padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    box-shadow: 0 0 15px white;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+.header a:hover{
+    color: bisque;
+}
